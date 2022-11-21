@@ -1,0 +1,48 @@
+site_name: Utilities Documents
+
+theme:
+  name: material
+
+  features:
+    - content.code.annotate 
+
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+
+    - toc.follow
+  
+  palette:
+    scheme: slate
+
+  font:
+    code: Consolas
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+  - def_list
+
+  - md_in_html
+
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde

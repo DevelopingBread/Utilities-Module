@@ -1,0 +1,31 @@
+:root > * {
+  --md-primary-fg-color:             rgb(24, 24, 24);
+  --md-primary-bg-color:             rgb(255, 255, 255);
+
+  --md-default-fg-color--light:      rgb(255, 255, 255);
+
+  --md-default-bg-color:             rgb(20, 20, 20); /* Background Color */
+
+  --md-typeset-color:                rgba(255, 255, 255);
+  --md-typeset-a-color:              rgb(255, 255, 255);
+  --md-typeset-table-color:          rgba(238, 241, 245);
+
+  --md-footer-bg-color:              rgb(36, 36, 36);
+  --md-footer-bg-color--dark:        rgb(39, 39, 39);
+  
+  /* Code Colors */
+
+  --md-code-fg-color:                rgb(255, 255, 255);
+  --md-code-bg-color:                rgb(24, 24, 24);
+
+  --md-code-hl-function-color:       rgb(220, 220, 170);
+  --md-code-hl-number-color:         rgb(181, 206, 168);
+  --md-code-hl-special-color:        rgb(219, 20, 87);
+  --md-code-hl-constant-color:       rgb(132, 214, 247);
+  --md-code-hl-keyword-color:        rgb(197, 134, 192);
+  --md-code-hl-string-color:         rgb(147, 221, 113);
+  --md-code-hl-name-color:           rgb(235, 235, 235);
+  --md-code-hl-operator-color:       rgb(212, 212, 212);
+  --md-code-hl-punctuation-color:    rgb(168, 168, 168);
+  --md-code-hl-comment-color:        rgb(150, 150, 150);
+}
